@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Погода|Будильник</string>
+    <string name="city_name">Не добавлено</string>
+    <string name="configure">Настройки</string>
+    <string name="add_city">Добавить город</string>
+    <string name="temperature">temperature</string>
+    <string name="description">description</string>
+    <string name="hint">Введите город</string>
+    <string name="time_picker_title">Выберите время</string>
+    <string name="add_alarm_clock">Добавить будильник</string>
+    <string name="add_widget">Добавить виджет</string>
+    <string name="stop_alarm">Выключить</string>
+</resources>
