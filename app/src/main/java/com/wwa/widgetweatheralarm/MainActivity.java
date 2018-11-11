@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
         super.onPause();
         int[] alarmChanges = new int[]{-1, -1, -1};
         for (int i = 0; i < 3; i++) {
-            if(alarmChanged[i]) alarmChanges[i] = i + 1;
+            if(alarmChanged[i]) alarmChanges[i] = i;
         }
         Intent intent = new Intent(context, WeatherWidget.class);
         intent.putExtra(Constants.UPDATE_WIDGET_INFO, alarmChanges);
